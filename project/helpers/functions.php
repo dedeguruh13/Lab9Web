@@ -26,7 +26,7 @@ function redirect(string $page, array $params = []): void {
 // Menu aktif berdasarkan rute yang sedang dibuka
 function isActive(string $prefix): string {
     global $page;
-    return (isset($page) && str_starts_with($page, $prefix)) ? 'active' : '';
+    return (isset($page) && strpos($page, $prefix) === 0) ? 'active' : '';
 }
 
 // Pesan sukses/gagal setelah operasi CRUD (flash message berbasis session)

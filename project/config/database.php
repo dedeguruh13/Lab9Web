@@ -1,9 +1,9 @@
 <?php
 // config/database.php - satu-satunya tempat pengelolaan koneksi database
-$host = 'localhost';
+$host = '127.0.0.1;port=8889';
 $db   = 'db_latihan';
 $user = 'root';
-$pass = '';
+$pass = 'root';
 
 try {
     $pdo = new PDO(
