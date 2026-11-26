@@ -4,7 +4,7 @@
 |---|---|
 | **Nama** | Guruh Khaerullah Kusvhi |
 | **NIM** | 312310630 |
-| **Kelas** | I231C |
+| **Kelas** | I251D |
 | **Mata Kuliah** | Pemrograman Web |
 | **Topik** | Modularisasi Program, Function, Template, dan Routing |
 
